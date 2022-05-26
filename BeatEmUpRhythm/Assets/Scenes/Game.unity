@@ -214,6 +214,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2779187985845726634, guid: 87663802380c7ed45842ba04698bbe03, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1863749503}
+    - target: {fileID: 6262218061234867368, guid: 87663802380c7ed45842ba04698bbe03, type: 3}
+      propertyPath: m_Size.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262218061234867368, guid: 87663802380c7ed45842ba04698bbe03, type: 3}
+      propertyPath: m_Size.y
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262218061234867368, guid: 87663802380c7ed45842ba04698bbe03, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -841069419, guid: 2d925ffd00a83e7408a4b0921cc88e1d, type: 3}
+    - target: {fileID: 6262218061234867368, guid: 87663802380c7ed45842ba04698bbe03, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6262218061234867369, guid: 87663802380c7ed45842ba04698bbe03, type: 3}
       propertyPath: m_Name
       value: Player
@@ -299,3 +319,23 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!95 &1863749503
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863749498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e26f62bfc57327c47abef1f72abc5a6c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

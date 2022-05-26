@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2d925ffd00a83e7408a4b0921cc88e1d
+guid: a104667696d5dc745a67ff761d62d06c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Renegade_Idle_1_strip4_0
+      name: Renegade_Walk_3_strip4_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 15
-        height: 30
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d992682e9c62e40ae15d6ec79e8f49
-      internalID: 1438127814
+      spriteID: 81f2616e867e79a4cb1f5f5261c5644c
+      internalID: 1150713002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Renegade_Idle_1_strip4_1
+      name: Renegade_Walk_3_strip4_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 1
-        width: 15
-        height: 30
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e1bdbe27739653429b594c1d9bac3a0
-      internalID: -2094580543
+      spriteID: a2116095c1352df42b06b920e209af9c
+      internalID: -149558614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Renegade_Idle_1_strip4_2
+      name: Renegade_Walk_3_strip4_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 1
-        width: 15
-        height: 29
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb51a35ee0122dc47a6c550865343f21
-      internalID: -1187935996
+      spriteID: c9b429a2c385bec488a172967980bcbc
+      internalID: -2032857681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Renegade_Idle_1_strip4_3
+      name: Renegade_Walk_3_strip4_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 1
-        width: 15
-        height: 29
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 206bde07be209fd4e8ae58472becd39d
-      internalID: -37928027
+      spriteID: 7b763b98985324740b8125d1867d9d20
+      internalID: 201591946
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Renegade_Idle_1_strip4_2: -1187935996
-      Renegade_Idle_1_strip4_1: -2094580543
-      Renegade_Idle_1_strip4_3: -37928027
-      Renegade_Idle_1_strip4_0: 1438127814
+      Renegade_Walk_3_strip4_2: -2032857681
+      Renegade_Walk_3_strip4_1: -149558614
+      Renegade_Walk_3_strip4_0: 1150713002
+      Renegade_Walk_3_strip4_3: 201591946
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
