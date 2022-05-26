@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private float speed = 1.5f;
+    private PlayerInput playerInput;
+    private InputAction moveAction;
+
+    private void Awake()
     {
-        
+        playerInput = GetComponent<PlayerInput>();
+        moveAction = playerInput.actions["Move"];
+        //Debug.Log(moveAction.ReadValue<Vector2>());
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        //Debug.Log(moveAction.ReadValue<Vector2>());
+        transform.Translate(new Vector3(moveAction.ReadValue<Vector2>().x, moveAction.ReadValue<Vector2>().y, 0) * speed * Time.deltaTime);
     }
 }
