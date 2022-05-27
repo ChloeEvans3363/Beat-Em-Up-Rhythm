@@ -26,6 +26,10 @@ public class Player : MonoBehaviour
         // Movement
         transform.Translate(new Vector3(moveAction.ReadValue<Vector2>().x, moveAction.ReadValue<Vector2>().y, 0) * speed * Time.deltaTime);
 
+        if (playerInput.actions["Attack"].triggered)
+        {
+            Debug.Log("Punch!");
+        }
 
         // Animation stuff
         animator.SetFloat("Horizontal", moveAction.ReadValue<Vector2>().x);
