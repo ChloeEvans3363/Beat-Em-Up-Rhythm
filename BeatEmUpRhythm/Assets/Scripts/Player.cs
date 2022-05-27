@@ -24,17 +24,22 @@ public class Player : MonoBehaviour
         //MovementState state;
 
         // Movement
+
         transform.Translate(new Vector3(moveAction.ReadValue<Vector2>().x, moveAction.ReadValue<Vector2>().y, 0) * speed * Time.deltaTime);
 
         if (playerInput.actions["Attack"].triggered)
         {
-            Debug.Log("Punch!");
+            animator.SetTrigger("Attack");
+            animator.SetInteger("Random", Random.Range(1, 3));
         }
 
         // Animation stuff
+
         animator.SetFloat("Horizontal", moveAction.ReadValue<Vector2>().x);
         animator.SetFloat("Vertical", moveAction.ReadValue<Vector2>().y);
         animator.SetFloat("Magnitude", moveAction.ReadValue<Vector2>().magnitude);
+
+        // Flips the sprite
 
         if (moveAction.ReadValue<Vector2>().x < 0)
         {
