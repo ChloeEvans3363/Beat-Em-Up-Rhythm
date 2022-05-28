@@ -32,7 +32,6 @@ public class Player : MonoBehaviour
         if (playerInput.actions["Attack"].triggered)
         {
             animator.SetTrigger("Attack");
-            animator.SetInteger("Random", Random.Range(1, 3));
         }
 
         // Jump
