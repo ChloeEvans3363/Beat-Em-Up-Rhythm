@@ -27,10 +27,19 @@ public class Player : MonoBehaviour
 
         transform.Translate(new Vector3(moveAction.ReadValue<Vector2>().x, moveAction.ReadValue<Vector2>().y, 0) * speed * Time.deltaTime);
 
+        // Attack
+
         if (playerInput.actions["Attack"].triggered)
         {
             animator.SetTrigger("Attack");
             animator.SetInteger("Random", Random.Range(1, 3));
+        }
+
+        // Jump
+
+        if (playerInput.actions["Jump"].triggered)
+        {
+            Debug.Log("Jump!");
         }
 
         // Animation stuff
